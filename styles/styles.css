@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ html {
 
 body {
   margin: var(3rem) 0 0 0;
-  font-family: var("Poppins", sans-serif);
+  font-family: "Poppins", sans-serif;
   font-size: var(0.813rem);
   background-color: var(#1D2521);
   color: var(#C7D1CC);
@@ -38,14 +39,74 @@ img {
 .bd-container {
   max-width: 960px;
   width: calc(100% - 2rem);
-  margin-left: var(1rem);
-  margin-right: var(1rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-.bd-container .l-header {
+
+.l-header {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var();
-  background-color: var();
+  z-index: 100;
+  background-color: #FBFEFD;
+}
+.l-header .nav {
+  max-width: 1024px;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.l-header .nav .change-theme {
+  position: absolute;
+  right: 1rem;
+  top: 1.8rem;
+  color: #1D2521;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav__item {
+  margin-bottom: 1rem;
+}
+
+.nav__link,
+.nav__logo,
+.nav__toggle {
+  color: #707070;
+  font-weight: 500;
+}
+
+.nav__logo:hover {
+  color: #069C54;
+}
+
+.nav__link {
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: #069C54;
+}
+
+.nav__toggle {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0 1rem;
+    text-align: center;
+    background-color: #FBFEFD;
+    transition: 0.4s;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 1rem 1rem;
+    z-index: 100;
+  }
 }/*# sourceMappingURL=styles.css.map */
