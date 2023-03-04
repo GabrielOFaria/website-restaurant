@@ -1,0 +1,12 @@
+@import '../abstract/variables';
+
+/*========== Button Dark/Light ==========*/
+
+.change-theme{
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    color: $text-color;
+    font-size: 1rem;
+    cursor: pointer;
+  } 

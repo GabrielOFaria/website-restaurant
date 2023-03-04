@@ -1,3 +1,6 @@
+@import '../abstract/variables';
+
+
 // ================ NAVMENU ===================
 
 @media screen and (max-width: 768px) {
@@ -15,3 +18,13 @@
         z-index: $z-fixed;
     }
 }
+
+@media screen and (min-width: 768px){    
+      $biggest-font-size: 4rem;
+      $h1-font-size: 200.25rem;
+      $h2-font-size: 1.5rem;
+      $h3-font-size: 1.25rem;
+      $normal-font-size: 1rem;
+      $small-font-size: .875rem;
+      $smaller-font-size: .813rem;    
+  }

@@ -1,22 +1,28 @@
 @import './variables';
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,::before,::after{
+  box-sizing: border-box;
 }
+
 
 html {
     scroll-behavior: smooth;
 }
 
 body{
-    margin: var($header-height) 0 0 0;
+    margin: $header-height 0 0 0;
     font-family: 'Poppins', sans-serif;
-    font-size: var($small-font-size);
-    background-color: var($body-color);
-    color: var($text-color);
+    font-size: $small-font-size;
+    background-color: body-color1;
+    color: $text-color;
     line-height: 1.6;
+  }
+
+  body.dark-theme{
+    $title-color: #F1F3F2;
+    $text-color: #C7D1CC;
+    $body-color: #1D2521;
+    $container-color: #27302C;
   }
   
   h1,h2,h3,p,ul{

@@ -1,6 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
+*, ::before, ::after {
   box-sizing: border-box;
 }
 
@@ -9,11 +7,11 @@ html {
 }
 
 body {
-  margin: var(3rem) 0 0 0;
+  margin: 3rem 0 0 0;
   font-family: "Poppins", sans-serif;
-  font-size: var(0.813rem);
-  background-color: var(#1D2521);
-  color: var(#C7D1CC);
+  font-size: 0.813rem;
+  background-color: body-color1;
+  color: #C7D1CC;
   line-height: 1.6;
 }
 
@@ -35,63 +33,25 @@ img {
   height: auto;
 }
 
-.bd-container {
-  max-width: 960px;
-  width: calc(100% - 2rem);
-  margin-left: 1rem;
-  margin-right: 1rem;
+.home__container {
+  height: calc(100vh - 3rem);
+  align-content: center;
 }
 
-.l-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background-color: #FBFEFD;
-}
-.l-header .nav {
-  max-width: 1024px;
-  height: 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.l-header .nav .change-theme {
-  position: absolute;
-  right: 1rem;
-  top: 1.8rem;
-  color: #1D2521;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.nav__item {
-  margin-bottom: 1rem;
-}
-
-.nav__link,
-.nav__logo,
-.nav__toggle {
-  color: #707070;
-  font-weight: 500;
-}
-
-.nav__logo:hover {
+.home__title {
+  font-size: 2.25rem;
   color: #069C54;
+  margin-bottom: 0.5rem;
+}
+.home__title .home__subtitle {
+  font-size: 1.5rem;
+  color: #393939;
+  margin-bottom: 2rem;
 }
 
-.nav__link {
-  transition: 0.3s;
-}
-
-.nav__link:hover {
-  color: #069C54;
-}
-
-.nav__toggle {
-  font-size: 1.3rem;
-  cursor: pointer;
+.home__img {
+  width: 300px;
+  justify-self: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -108,4 +68,13 @@ img {
     border-radius: 0 0 1rem 1rem;
     z-index: 100;
   }
+}
+/*========== Button Dark/Light ==========*/
+.change-theme {
+  position: absolute;
+  right: 1rem;
+  top: 1.8rem;
+  color: #C7D1CC;
+  font-size: 1rem;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
