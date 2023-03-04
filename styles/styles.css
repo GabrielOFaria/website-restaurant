@@ -77,4 +77,26 @@ img {
   color: #C7D1CC;
   font-size: 1rem;
   cursor: pointer;
+}
+
+.section {
+  padding: 4rem 0 2rem;
+}
+
+.section-title,
+.section-subtitle {
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  color: #393939;
+  margin-bottom: 1.5rem;
+}
+
+.section-subtitle {
+  display: block;
+  color: #069C54;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }/*# sourceMappingURL=styles.css.map */

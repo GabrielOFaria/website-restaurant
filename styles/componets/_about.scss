@@ -1,0 +1,23 @@
+@import '../abstract/variables';
+
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.section-title,
+.section-subtitle {
+    text-align: center;
+}
+
+.section-subtitle {
+    font-size: $h1-font-size;
+    color: $title-color;
+    margin-bottom: $mb-3;
+}
+
+.section-subtitle{
+  display: block;
+  color: $first-color;
+  font-weight: $font-medium;
+  margin-bottom: $mb-1;
+}
