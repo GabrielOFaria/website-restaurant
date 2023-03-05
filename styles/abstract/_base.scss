@@ -1,44 +1,62 @@
 @import './variables';
 
-*,::before,::after{
+:root {
+  --biggest-font-size: 4rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+}
+
+
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    margin: $header-height 0 0 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: $small-font-size;
-    background-color: body-color1;
-    color: $text-color;
-    line-height: 1.6;
-  }
 
-  body.dark-theme{
-    $title-color: #F1F3F2;
-    $text-color: #C7D1CC;
-    $body-color: #1D2521;
-    $container-color: #27302C;
-  }
-  
-  h1,h2,h3,p,ul{
-    margin: 0;
-  }
-  
-  ul{
-    padding: 0;
-    list-style: none;
-  }
-  
-  a{
-    text-decoration: none;    
-  }
-  
-  img{
-    max-width: 100%;
-    height: auto;
-  }
+body {
+  margin: $header-height 0 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: $normal-font-size;
+  background-color: body-color1;
+  color: $title-color;
+  line-height: 1.6;
+}
+
+body.dark-theme {
+  $title-color: #F1F3F2;
+  $text-color: #C7D1CC;
+  $body-color: #1D2521;
+  $container-color: #27302C;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

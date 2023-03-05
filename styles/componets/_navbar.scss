@@ -1,2 +1,40 @@
 @import '../abstract/variables';
 
+.nav {
+    max-width: 1024px;
+    height: $header-height;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    color: $text-color;
+    font-weight: $font-medium;
+
+    &:hover {
+        color: $first-color;
+    }
+}
+
+.nav__item {
+    margin-bottom: $mb-2;
+}
+
+.nav__link {
+    color: $text-color1;
+    font-weight: $font-medium;
+    transition: .3s;
+    font-size: 1rem;
+
+    &:hover {
+        color: $first-color;
+    }
+}
+
+.nav__toggle {
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: $text-color;
+    font-weight: $font-medium;
+}
