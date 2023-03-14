@@ -7,6 +7,8 @@
 .section-title,
 .section-subtitle {
     text-align: center;
+    color: $title-color1;
+    font-size: $h1-font-size1;
 }
 
 .section-subtitle {
@@ -15,9 +17,23 @@
     margin-bottom: $mb-3;
 }
 
-.section-subtitle{
-  display: block;
-  color: $first-color;
-  font-weight: $font-medium;
-  margin-bottom: $mb-1;
+.section-subtitle {
+    display: block;
+    color: $first-color;
+    font-weight: $font-medium;
+    margin-bottom: $mb-1;
+}
+
+.about__data {
+    text-align: center;
+
+    .about__description {
+        margin-bottom: $mb-3;
+    }
+}
+
+.about__img {
+    width: 280px;
+    border-radius: .5rem;
+    justify-self: center;
 }
