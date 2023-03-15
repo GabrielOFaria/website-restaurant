@@ -26,8 +26,8 @@ html {
 body {
   margin: $header-height 0 0 0;
   font-family: 'Poppins', sans-serif;
-  font-size: $normal-font-size;
-  background-color: body-color1;
+  // font-size: $normal-font-size;
+  background-color: $body-color1;
   color: $text-color1;
   line-height: 1.6;
 }

@@ -21,8 +21,7 @@ html {
 body {
   margin: 3rem 0 0 0;
   font-family: "Poppins", sans-serif;
-  font-size: 0.938rem;
-  background-color: body-color1;
+  background-color: #FBFEFD;
   color: #707070;
   line-height: 1.6;
 }
@@ -55,6 +54,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #FBFEFD;
 }
 
 .nav__logo {
@@ -163,6 +163,7 @@ img {
   text-align: center;
   color: #393939;
   font-size: 2.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .section-subtitle {
@@ -251,4 +252,28 @@ img {
 .show-scroll {
   visibility: visible;
   bottom: 1.5rem;
+}
+
+.services__title {
+  font-size: 1.25rem;
+  color: #393939;
+  margin-bottom: 0.5rem;
+}
+
+.services__description {
+  padding: 0 1.5rem;
+}
+
+.services__container {
+  row-gap: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.services__container .services__content {
+  text-align: center;
+}
+.services__container .services__content .services__img {
+  width: 64px;
+  height: 64px;
+  fill: #069C54;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=styles.css.map */
