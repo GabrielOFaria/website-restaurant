@@ -1,0 +1,18 @@
+@import '../abstract/variables';
+
+.footer__container {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    row-gap: 2rem;
+
+    .footer__logo {
+        font-size: $h3-font-size;
+        color: $first-color;
+        font-weight: $font-semi-bold;
+    }
+}
+
+.footer__description {
+    display: block;
+    font-size: $small-font-size;
+    margin: .25rem 0 $mb-3;
+}

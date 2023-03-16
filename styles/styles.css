@@ -323,4 +323,47 @@ img {
   display: flex;
   padding: 0.625rem 0.813rem;
   border-radius: 0.5rem 0 0.5rem 0;
+}
+
+.app__data {
+  text-align: center;
+}
+.app__data .app__description {
+  margin-bottom: 2.5rem;
+}
+
+.app__stores {
+  margin-bottom: 2rem;
+}
+.app__stores .app__store {
+  width: 120px;
+  margin: 0 0.5rem;
+}
+
+.app__img {
+  width: 230px;
+  justify-self: center;
+}
+
+.contact__container {
+  text-align: center;
+}
+.contact__container .contact__description {
+  margin-bottom: 1.5rem;
+}
+
+.footer__container {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem;
+}
+.footer__container .footer__logo {
+  font-size: 1rem;
+  color: #069C54;
+  font-weight: 600;
+}
+
+.footer__description {
+  display: block;
+  font-size: 0.813rem;
+  margin: 0.25rem 0 1.5rem;
 }/*# sourceMappingURL=styles.css.map */
